@@ -1,0 +1,39 @@
+body{
+    background: black;
+}
+.final-result{
+  color:#fafafa;
+  display:flex;
+  justify-content: center;
+  margin-top:100px;
+}
+.player-score{
+  margin-top:150px;
+  margin-bottom:20px;
+}
+.player-score, .computer-score{
+  color:#fafafa;
+  display:flex;
+  justify-content: center;
+  
+}
+h1{
+    color:#fafafa;
+    text-align:center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+button{
+    margin:40px;
+    border:none;
+    background-color:#ff6e40;
+    padding:50px 30px 50px 30px;
+    color: #fafafa;
+    border-radius: 15%;
+}
